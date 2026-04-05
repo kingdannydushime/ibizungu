@@ -1,0 +1,22 @@
+{
+  "name": "ibizungu",
+  "version": "1.0.0",
+  "description": "Jeu de cartes IbIZUNGU par Danny King",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1",
+    "socket.io-client": "^4.7.5",
+    "tesseract.js": "^5.0.5",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11",
+    "typescript": "^5.4.5"
+  }
+}

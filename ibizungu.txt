@@ -1,0 +1,38 @@
+Nom du jeu : Ibizungu
+Règles du jeu :
+- 4 joueurs en équipes de 2 (2 vs 2), équipes aléatoires.
+- Paquet : 24 cartes (As, 7, Roi, Valet, Dame, 6).
+- Hiérarchie : As > 7 > Roi > Valet > Dame > 6.
+- Jeu sans atout : le joueur qui commence fixe la couleur. Les autres joueurs ne sont PAS obligés de suivre la couleur demandée (chacun joue ce qu'il veut), mais toute carte d'une couleur différente de la première perd automatiquement le pli. La plus forte carte de la couleur demandée gagne.
+
+Fonctionnalités :
+- Application Android avec Flutter, multijoueur local offline via Wi-Fi.
+- Connexion simple entre 4 téléphones, pseudo au démarrage, interface moderne avec animations.
+- Bouton « à propos » : Uyu mukino wakozwe na Danny kugira ngo mushobore kuryoherwa no gutsindira amahera mu kuryoherwa + infos version/support.
+
+Système DDK :
+- Chaque joueur reçoit 1000 DDK au départ.
+- Perte : -50 DDK par joueur (100 par équipe) transférés aux gagnants.
+- Mise personnalisable, transfert de DDK entre joueurs, participation bloquée sans DDK sauf admin.
+
+Achat DDK :
+- 500 FBu = 500 DDK via Lumicash (68356689).
+- Confirmation par OCR (Google ML Kit) après SMS ou screenshot.
+- Option « Me soutenir » : 68356689.
+- Conversion 5000 DDK en FBu, sinon « Fonds insuffisants ». Si valide : numéro Lumicash demandé, déduction et « Versement effectué ».
+
+Persistance et sécurité :
+- Données DDK persistantes même après réinstallation.
+- Synchronisation P2P entre joueurs, restauration automatique, données chiffrées.
+- Jeu 100% offline avec option cloud future (Synchronisation Google : Sauvegarde via compte Google).
+
+Scoring :
+- 6 plis, trésors : As + 7 (8 au total).
+- Égalité départagée par points : Roi=4, Valet=3, Dame=2, 6=0.
+- Annonce du gagnant avec effets visuels.
+
+Système Admin :
+- Champ pour code admin : code "DDk321" donne accès admin (jouer sans DDK et ignorer restrictions).
+
+Premier lancement :
+- Connexion Google proposée mais optionnelle.
